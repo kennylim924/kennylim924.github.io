@@ -1,0 +1,150 @@
+/* Element Styling */
+
+html {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  z-index: 99999;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'PT Sans Caption', serif;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-family: 'PT Sans Caption', serif;
+}
+
+/* Jumbotron */
+.jumbotron {
+  text-align: center;
+  /* background: url('../images/geoback.png') no-repeat center center;
+  background-size: cover; */
+}
+
+.display-3 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.1;
+  padding: 3.5rem 0;
+}
+
+.me {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+.display-2 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.1;
+  padding: 3.5rem 0;
+}
+
+.lead {
+  padding-top: 1rem;
+}
+
+/* Skills */
+.skills {
+  text-align: center;
+}
+
+.current-skills {
+  padding-bottom: 2rem;
+}
+
+.fa-html5:hover {
+  color: #e24d2c;
+}
+
+.fa-css3-alt:hover {
+  color: #2275B8;
+}
+
+.fa-js-square:hover {
+  color: #FCD94E;
+}
+
+.fa-git-square:hover {
+  color: #ED503B;
+}
+
+.fa-database:hover {
+  color: #468CC5;
+}
+
+.fa-adobe:hover {
+  color: #FF7C00;
+}
+
+/* Projects */
+.projects {
+  background-color: #eceeef;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.projects-header {
+  padding: 2rem 0;
+}
+
+.project {
+  padding-bottom: 1rem;
+}
+
+.project-image-container {
+  overflow: hidden;
+}
+
+.project-image-container img {
+  transition: 0.5s;
+}
+
+.project-image-container img:hover {
+  opacity: 0.75;
+  transform: scale(1.3);
+}
+
+/* Contact */
+.contact {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.contact-me {
+  padding: 2rem 0;
+}
+
+.contact-icon-logo a {
+  color: #292b2c;
+}
+
+.fa-envelope:hover {
+  color: #9DCD65;
+}
+
+.fa-linkedin:hover {
+  color: #1278B2;
+}
+
+.fa-github:hover {
+  color: #ED503B;
+}
+
+/* Footer */
+.footer {
+  background-color: #292b2c;
+  color: #fff;
+  padding: .75rem;
+  font-size: .75rem;
+}
